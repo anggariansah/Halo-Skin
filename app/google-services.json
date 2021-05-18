@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "133225513663",
+    "firebase_url": "https://haloskin-1601823916199.firebaseio.com",
+    "project_id": "haloskin-1601823916199",
+    "storage_bucket": "haloskin-1601823916199.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133225513663:android:3b7c47058cd82262c63c0a",
+        "android_client_info": {
+          "package_name": "com.solvedev.haloskin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133225513663-pbbcgt8p36pcjkcnhp2fojjnqf579rfm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solvedev.haloskin",
+            "certificate_hash": "38797c9b837211ceaf584ef8ca45fb59c10b87fa"
+          }
+        },
+        {
+          "client_id": "133225513663-p8bft0u26c4i7hug6r4uefo5tni3sdok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjBNnMNGy4zA8wJJb5xlh06xbuj3u5OPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133225513663-p8bft0u26c4i7hug6r4uefo5tni3sdok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

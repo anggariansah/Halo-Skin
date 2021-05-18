@@ -1,0 +1,263 @@
+<resources>
+    <string name="app_name">Halo Skin</string>
+    <string name="facebook_app_id">296296374967304</string>
+
+    <string name="konsultasikan">Konsultasikan Masalah Kulitmu Kapanpun Kamu Perlukan</string>
+    <string name="ingin_berkonsultasi">ingin berkonsultasi dengan dokter kecantikan tapi tak punya waktu untuk bertemu? Kamu bisa chat kapanpun disini</string>
+    <string name="icon">icon</string>
+    <string name="masuk_dengan_email">Masuk Dengan Email</string>
+    <string name="masuk">Masuk</string>
+    <string name="password">Password</string>
+    <string name="belum_punya_akun">Belum punya akun? <b>Daftar</b></string>
+    <string name="halo_skin">Halo Skin</string>
+    <string name="email">Email</string>
+    <string name="calendar">%1$s-%2$s-%3$s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hallo">Hallo,</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="angga">Angga</string>
+    <string name="jl_widyakrama">Jl Widyakrama</string>
+    <string name="kami_disini_untuk_kamu">Kami Disini Untuk Kamu!</string>
+    <string name="konsultasi_dengan_dokter">Konsultasi Dengan Dokter</string>
+    <string name="konsultasi_dengan_dokter_terpercaya">Konsultasi Dengan Dokter Terpercaya</string>
+    <string name="beli_produk">Beli Produk</string>
+    <string name="tersedia_berbagai_macam_produk">Tersedia Berbagai Macam Produk</string>
+    <string name="contoh_skincare_atau_obat_kulit">Cari...</string>
+    <string name="cari">Cari</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="registrasi">REGISTRASI</string>
+    <string name="selanjutnya">Selanjutnya</string>
+    <string name="nama">Nama Lengkap</string>
+    <string name="tempat_lahir">Tempat Lahir</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="kota_kabupaten">Kota/Kabupaten</string>
+    <string name="alamat_rumah">Alamat</string>
+    <string name="nomor_whatsapp">Nomor Whatsapp</string>
+    <string name="verif">Akan digunakan untuk verifikasi</string>
+    <string name="konfirmasi_password">Konfirmasi password</string>
+    <string name="daftar">Daftar</string>
+    <string name="saya_setuju_untuk_mendaftar">Saya setuju untuk mendaftar</string>
+    <string name="todo">TODO</string>
+    <string name="iconhp">iconhp</string>
+    <string name="masukan_kode_verifikasi">Masukan Kode Verifikasi</string>
+    <string name="keterangan_verifi">Kode verifikasi telah dikirimkan melalui email anda</string>
+    <string name="tv_kode">______</string>
+    <string name="verifikasi">Verifikasi</string>
+    <string name="tv_detik">Tidak mendapatkan kode?</string>
+    <string name="nomor">Nomor sudah tidak aktif?</string>
+    <string name="icon_tanggal">icon_tanggal</string>
+    <string name="lengkapi_profil_kamu">Lengkapi Profil Kamu</string>
+    <string name="untuk_mempermudah_kami_melayani_kamu_dengan_lebih_baik">Untuk mempermudah kami melayani kamu dengan lebih baik</string>
+    <string name="iv_papar">iv_papar</string>
+    <string name="lengkapi_profile">Lengkapi Detail</string>
+    <string name="iformasi_dasar">Informasi Dasar</string>
+    <string name="lengkapi_profilmu">Lengkapi Profil Kamu</string>
+    <string name="informasi_kontak">Informasi Kontak</string>
+    <string name="informasi_personal">Informasi Personal</string>
+    <string name="laki_laki">Laki-laki</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="_5_tahun">5 Tahun</string>
+    <string name="angka_random">50</string>
+    <string name="chat">Chat</string>
+    <string name="rp_50_000">Rp. 50.000</string>
+    <string name="dokter_kecantikan">Dokter Kecantikan</string>
+    <string name="dr_sarah_fitria">Dr. Sarah Fitria</string>
+    <string name="chat_instan">Chat Instan</string>
+
+    <string name="dummy_text">Lorem Ipsum Dolor Sit Amet lorem Ipsum dolor sit amet lorem ipsum</string>
+    <string name="jenis_kulit">Jenis Kulit</string>
+    <string name="berapa_umur_kamu">Berapa Umur Kamu?*</string>
+    <string name="_18"><![CDATA[<18]]></string>
+    <string name="_25_34">25-34</string>
+    <string name="_18_24">18-24</string>
+    <string name="_35_44">35-44</string>
+    <string name="_45"><![CDATA[>45]]></string>
+    <string name="apakah_kamu_sedang_hamil_atau_menyusui">Apakah Kamu Sedang Hamil atau Menyusui?*</string>
+    <string name="ya">Ya</string>
+    <string name="tidak">Tidak</string>
+    <string name="apakah_jenis_kulitmu">Apakah Jenis Kulitmu?*</string>
+    <string name="normal">Normal</string>
+    <string name="gambar_kulit_normal">kulit normal</string>
+    <string name="berminyak">Berminyak</string>
+    <string name="gambar_kulit_berminyak">gambar kulit berminyak</string>
+    <string name="kering">Kering</string>
+    <string name="kombinasi">Kombinasi</string>
+    <string name="apakah_kulit_kamu_sensitif_biasanya_kulit_yang_sensitif_ditandai_dengan_mudah_memerah_atau_gatal">Apakah Kulit Kamu Sensitif? (Biasanya Kulit Yang Sensitif Ditandai Dengan Mudah Memerah atau Gatal)*</string>
+    <string name="apakah_saat_ini_kamu_sedang_berjerawat">Apakah Saat Ini Kamu Sedang Berjerawat?*</string>
+    <string name="tingkat_keparahan_jerawat_kamu">Tingkat Keparahan Jerawat Kamu*</string>
+    <string name="jerawat_meradang_akut">Jerawat Meradang/Akut</string>
+    <string name="jerawat_sedang">Jerawat Sedang</string>
+    <string name="jerawat_ringan">Jerawat Ringan</string>
+    <string name="apa_keluhan_di_wajah_kamu">Apa Keluhan Di Wajah Kamu?*</string>
+    <string name="kusam">Kusam</string>
+    <string name="minyak_berlebih">Minyak Berlebih</string>
+    <string name="dehidrasi">Dehidrasi</string>
+    <string name="pori_pori_besar">Pori-pori Besar</string>
+    <string name="apakah_ada_keluhan_lain_seperti">Apakah Ada Keluhan Lain,Seperti?*</string>
+    <string name="gaya_hidup">Gaya Hidup</string>
+    <string name="seberapa_banyak_kamu_minum_air_putih_dalam_sehari">Seberapa Banyak Kamu Minum Air Putih Dalam Sehari?dalam gelas*</string>
+    <string name="_1_3_gelas">1-3 Gelas</string>
+    <string name="_4_7_gelas">4-7 Gelas</string>
+    <string name="_8_gelas_atau_lebih">8 Gelas atau Lebih</string>
+    <string name="seberapa_sering_kamu_makan_buah_atau_sayur_perhari">Seberapa Sering Kamu Makan Buah atau Sayur Perhari?*</string>
+    <string name="_1x_seminggu">1x Seminggu</string>
+    <string name="setiap_hari">Setiap Hari</string>
+    <string name="_2_3x_seminggu">2–3x Seminggu</string>
+    <string name="_4_5x_seminggu">4–5x Seminggu</string>
+    <string name="makanan_berminyak_pedas_atau_gorengan_perhari">Makanan Berminyak, Pedas, atau Gorengan Perhari?*</string>
+    <string name="_2_4x_seminggu">2-4x Seminggu</string>
+    <string name="_1x_dalam_2_minggu">1x Dalam 2 Minggu</string>
+    <string name="_1x_perbulan_jaranng_sekali">1x Perbulan (Jarang Sekali)</string>
+    <string name="simpan">Simpan</string>
+
+    <string name="icon_dokter">icon_dokter</string>
+    <string name="hai_anda_perlu_melakukan_konsultasi_dahulu_kepada_dokter_untuk_mendapatkan_resep">Hai, Anda perlu melakukan konsultasi dahulu kepada dokter untuk mendapatkan resep</string>
+    <string name="chat_sekarang">chat sekarang</string>
+    <string name="atau_upload_resep_jika_sudah_mendapatkan_resep_dari_dokter">Atau upload resep jika sudah mendapatkan resep dari dokter</string>
+    <string name="upload_resep">Upload Resep</string>
+
+    <string name="masukan_kode_promo">MASUKAN KODE PROMO</string>
+    <string name="pakai">Pakai</string>
+    <string name="promogratis">PROMOGRATIS</string>
+    <string name="berhasil_dipakai">Berhasil Dipakai</string>
+    <string name="kamu_menghemat_rp_50_000">Kamu Menghemat Rp. 50.000</string>
+    <string name="ringkasan">Ringkasan</string>
+    <string name="biaya_sesi_untuk_30_menit">Biaya sesi untuk 30 menit</string>
+    <string name="diskon_kupon">Diskon Kupon</string>
+    <string name="bayar">Bayar</string>
+    <string name="rp_0">Rp.0</string>
+    <string name="bayar_dan_konfirmasi">Bayar dan Konfirmasi</string>
+    <string name="total_belanja">Total Belanja</string>
+    <string name="diskon">Diskon</string>
+    <string name="pengiriman">Pengiriman</string>
+    <string name="opsi_pengiriman">Opsi Pengiriman</string>
+    <string name="jne_reguler">JNE Reguler</string>
+    <string name="panah"><![CDATA[>]]></string>
+    <string name="per_paket">Per Paket</string>
+    <string name="_15_000">15.000</string>
+    <string name="tambah">tambah</string>
+    <string name="_2">2</string>
+    <string name="provinsi">Provinsi</string>
+    <string name="kota">Kota</string>
+    <string name="kecamatan">Kecamatan</string>
+    <string name="ongkir">Ongos Kirim</string>
+    <string name="favorite">favorite</string>
+    <string name="estimasi_harga">Estimasi Harga</string>
+    <string name="_1_produk">1 Produk</string>
+    <string name="produk_favorit">Produk Favorit</string>
+    <string name="cari_produk">Cari produk</string>
+    <string name="riwayat_konsul">Riwayat Konsul</string>
+    <string name="selesai">Selesai</string>
+    <string name="berkonsultasi_dengan">Berkonsultasi Dengan</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="nama_dokter">Nama Dokter</string>
+    <string name="dokter">Dokter</string>
+    <string name="lihat_catatan">Lihat Catatan</string>
+    <string name="chat_ulang">Chat Ulang</string>
+    <string name="riwayat_pembelian">Riwayat Pembelian</string>
+    <string name="pesanan_sedang_dikirim">Pesanan sedang dikirim</string>
+    <string name="pesanan_selesai">Pesanan selesai</string>
+    <string name="jne_08771894819">JNE : 08771894819</string>
+    <string name="emina_sun_protection">Emina Sun Protection</string>
+    <string name="_1_pcs">1 pcs</string>
+    <string name="nomor_pesanan_pembelian">nomor pesanan pembelian</string>
+    <string name="rp_35_000">Rp. 35.000,-</string>
+    <string name="beli_lagi">Beli Lagi</string>
+    <string name="pilih_alamat">Pilih Alamat</string>
+    <string name="beritahu_kami_masalah_kamu_biarkan_kami_bantu">Beritahu kami masalah kamu, biarkan kami bantu :</string>
+    <string name="chat_dengan_kami">Chat Dengan Kami</string>
+    <string name="email_kami">Email Kami</string>
+    <string name="_120">120</string>
+    <string name="detik_untuk_mengirim_ulang">detik</string>
+    <string name="kirim_ulang">Kirim ulang</string>
+    <string name="apakah_kulit_kamu_iritasi">Apakah Kulit Kamu Iritasi?</string>
+    <string name="jenis">Jenis</string>
+    <string name="catatan">Catatan</string>
+    <string name="tunggu">Tunggu</string>
+    <string name="rekomendasi_produk">Rekomendasi Produk</string>
+    <string name="kurang_18"><![CDATA[< 18]]></string>
+    <string name="detail_pesanan">Detail Pesanan</string>
+    <string name="invoice">Invoice</string>
+    <string name="nama_produk">Nama Produk</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="pembayaran">Pembayaran</string>
+    <string name="rp_9_000">Rp. 9.000,-</string>
+    <string name="rp_44_000">Rp. 44.000,-</string>
+    <string name="pembayaran_melalu">Pembayaran MelaluI</string>
+    <string name="BCA">BCA</string>
+    <string name="waktu_anda_tersisa">Waktu Anda Tersisa</string>
+    <string name="_30">30</string>
+    <string name="detik_lagi">menit lagi</string>
+    <string name="atur_ulang_kata_sandi">Atur Ulang Kata Sandi</string>
+    <string name="masukkan_e_mail_yang_terdaftar_kami_akan_mengirimkan_kode_verifikasi_untuk_atur_ulang_kata_sandi">Masukkan e-mail yang terdaftar. Kami akan mengirimkan kode verifikasi untuk atur ulang kata sandi</string>
+    <string name="lanjut">Lanjut</string>
+    <string name="kode_verifikasi_telah_dikirimkan_ke_email_anda">Kode Verifikasi Telah Dikirimkan ke email anda</string>
+    <string name="kata_sandi_baru">Kata Sandi Baru</string>
+    <string name="buat_kata_sandi_yang_baru">Buat kata sandi yang baru</string>
+    <string name="konfirmasi">Konfirmasi</string>
+    <string name="setelah_kata_sandi_diubah_silahkan_masuk_kembali_dengan_kata_sandi_yang_baru">Setelah kata sandi diubah, silahkan masuk kembali dengan kata sandi yang baru</string>
+    <string name="lupa_kata_sandi">Lupa kata sandi?</string>
+    <string name="tidak_ada">Tidak ada</string>
+    <string name="beruntusan">Beruntusan</string>
+    <string name="scar_bopeng">Scar (Bopeng)</string>
+    <string name="mata_panda">Mata Panda</string>
+    <string name="bekas_jerawat_kemerahan">Bekas Jerawat Kemerahan</string>
+    <string name="flek_bekas_jerawat">Flek Bekas Jerawat</string>
+    <string name="kali_sehari">Kali Sehari</string>
+    <string name="_5">5</string>
+
+    <string-array name="umur">
+        <item><![CDATA[<18]]></item>
+        <item>18–24</item>
+        <item>25–34</item>
+        <item>35–44</item>
+        <item><![CDATA[>45]]></item>
+    </string-array>
+
+    //Camera
+    <string-array name="camera">
+        <item>Camera</item>
+        <item>Gallery</item>
+    </string-array>
+
+    <string-array name="keluhan">
+        <item>Kusam</item>
+        <item>Minyak Berlebih</item>
+        <item>Dehidrasi</item>
+        <item>Pori-pori Besar</item>
+    </string-array>
+
+    <string-array name="keluhan_lain">
+        <item>Tidak ada</item>
+        <item>Beruntusan</item>
+        <item>Scar (Bopeng)</item>
+        <item>Mata Panda</item>
+        <item>Bekas Jerawat Kemerahan</item>
+        <item>Flek Bekas Jerawat</item>
+    </string-array>
+
+    <string-array name="minum">
+        <item>1–3 </item>
+        <item>4–7 </item>
+        <item>>=8 </item>
+    </string-array>
+
+    <string-array name="sayur">
+        <item>Setiap Hari</item>
+        <item>1x Seminggu</item>
+        <item>2-3x Seminggu</item>
+        <item>4-5x Seminggu</item>
+    </string-array>
+
+    <string-array name="minyak">
+        <item>Setiap Hari</item>
+        <item>1x Seminggu</item>
+        <item>2–4x Seminggu</item>
+        <item>1x Dalam 2 minggu</item>
+        <item>1x Perbulan (Jarang Sekali)</item>
+    </string-array>
+
+</resources>

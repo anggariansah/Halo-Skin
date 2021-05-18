@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/account" />
+
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/dr_sarah_fitria"
+            android:textColor="@color/colorWhite"
+            android:textSize="23sp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/linear_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+        android:layout_below="@+id/tb"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/waktu_anda_tersisa"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="100dp"
+            android:textColor="@color/colorWhite"
+
+            />
+        <TextView
+            android:id="@+id/tv_detik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_30"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/colorWhite"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detik_lagi"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/colorWhite"
+            />
+
+    </LinearLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linear_send"
+        android:layout_below="@+id/linear_timer"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_chat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            tools:listitem="@layout/item_chat" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linear_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/edt_pesan"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="0.1"
+            android:background="@drawable/edt_chat_grey"
+            android:drawableEnd="@drawable/ic_baseline_attach_file_grey_24"
+            android:drawablePadding="20dp"
+            android:hint="Tulis Pesan ..."
+            android:paddingStart="20dp"
+            android:paddingEnd="8dp"/>
+
+        <ImageButton
+            android:id="@+id/ib_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/button_circle_grey"
+            android:padding="20dp"
+            android:src="@drawable/ic_send_primary" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

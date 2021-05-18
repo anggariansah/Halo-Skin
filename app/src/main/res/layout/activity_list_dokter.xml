@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".activity.ListDokterActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@android:color/white"
+        android:background="@color/colorPrimary" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/sv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edt_search_round_white"
+        android:drawableStart="@drawable/ic_search_purple"
+        android:drawablePadding="10dp"
+        android:layout_margin="20dp"
+        android:autofillHints="@string/cari"
+        app:iconifiedByDefault="false"
+        android:hint="@string/contoh_skincare_atau_obat_kulit"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:id="@+id/linear_promo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Lihat Promo yang Tersedia"/>
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_dokter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:itemCount="1"
+        tools:listitem="@layout/item_dokter" />
+
+</LinearLayout>

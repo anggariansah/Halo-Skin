@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.solvedev.haloskin">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:allowBackup">
+
+        <service android:name=".service.NotificationService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+        <activity android:name=".activity.PromoTersediaActivity"></activity>
+        <activity android:name=".activity.KataSandiUlangActivity" />
+        <activity android:name=".activity.VerifikasiGantiActivity" />
+        <activity android:name=".activity.AturUlangSandiActivity" />
+        <activity android:name=".activity.UpdateProfileActivity" />
+        <activity android:name=".activity.UbahLokasi" />
+        <activity android:name=".activity.OpsiPengirimanActivity"></activity>
+        <activity android:name=".activity.DaftarAlamatActivity" />
+        <activity
+            android:name=".activity.BantuanActivity"
+            android:theme="@style/AppToolbar">
+        </activity>
+
+        <activity
+            android:name=".activity.PembayaranKonsultasiActivity"
+            android:theme="@style/AppToolbar" />
+        <activity
+            android:name=".activity.PembayaranProdukActivity"
+            android:theme="@style/AppToolbar" />
+        <activity
+            android:name=".activity.AlamatPengirimanActivity"
+            android:theme="@style/AppToolbar" />
+        <activity android:name=".activity.KeranjangActivity" />
+        <activity
+            android:name=".activity.DetailPembayaran"
+            android:theme="@style/AppToolbar" />
+        <activity android:name=".activity.RiwayatPembelianActivity" />
+        <activity android:name=".activity.RiwayatKonsulActivity" >
+            <intent-filter>
+                <action android:name="chat" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.FavoriteProductActivity"
+            android:theme="@style/AppToolbar" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".activity.ListProdukActivity"
+            android:theme="@style/AppToolbar" />
+        <activity android:name=".activity.VerifikasiActivity" />
+        <activity android:name=".activity.JenisListActivity" />
+        <activity android:name=".activity.LengkapiProfilActivity" />
+        <activity android:name=".activity.BuyProdukActivity">
+        </activity>
+        <activity android:name=".activity.SignUpKedua" />
+        <activity android:name=".activity.ChatKonsultasiActiviy"></activity>
+        <activity android:name=".activity.SignUp" />
+        <activity android:name=".activity.LoginAccountActivity" />
+        <activity android:name=".activity.MainMenuActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.DetailDokterKonsultasiActivity" />
+        <activity android:name=".activity.ListDokterActivity">
+        </activity>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

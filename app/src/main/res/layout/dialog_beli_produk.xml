@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:contentDescription="@string/icon_dokter"
+        android:src="@drawable/icon_dokter_boys"
+        android:layout_marginTop="10dp"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hai_anda_perlu_melakukan_konsultasi_dahulu_kepada_dokter_untuk_mendapatkan_resep"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_round_purple"
+        android:text="@string/chat_sekarang"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/atau_upload_resep_jika_sudah_mendapatkan_resep_dari_dokter"
+        android:textSize="16sp"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/btn_upload_resep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_primary"
+        android:text="@string/upload_resep"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_cek_resep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_primary"
+        android:text="Cek Konfirmasi Resep"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:text="@string/berkonsultasi_dengan"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tv_tanggal_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="28dp"
+            android:layout_weight="1"
+            android:text="@string/tanggal"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorPrimary" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_foto_dokter_item"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/icon_dokter" />
+
+        <TextView
+            android:id="@+id/tv_nama_dokter_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/iv_foto_dokter_item"
+            android:text="@string/nama_dokter"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_jabatan_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_nama_dokter_item"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/iv_foto_dokter_item"
+            android:text="@string/dokter"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/iv_file"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/icon_dokter"
+            android:src="@drawable/ic_file"
+            android:layout_below="@id/tv_jabatan_item"
+            android:layout_toEndOf="@id/iv_foto_dokter_item"
+            />
+
+        <TextView
+            android:id="@+id/tv_catatan_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_jabatan_item"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:layout_toEndOf="@+id/iv_file"
+            android:text="@string/lihat_catatan"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_chat_ulang_item"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_primary"
+            android:layout_below="@id/tv_jabatan_item"
+            android:layout_toEndOf="@+id/iv_file"
+            android:layout_marginStart="140dp"
+            android:text="@string/chat_ulang"
+            android:layout_marginTop="-5dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
